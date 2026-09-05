@@ -1,40 +1,42 @@
 # Algorithmica — A 3D World of Algorithms
 
-一个可自由探索的 3D 算法可视化世界，基于 React Three Fiber（Three.js）构建。
+An explorable 3D world of algorithm visualizations, built with React Three Fiber (Three.js).
 
-## ✨ 特性
+English | [简体中文](./README.zh-CN.md)
 
-- 🧊 3D 场景化展示经典算法（排序、数据结构等）
-- 🎮 沉浸式视角漫游
-- 🎨 后期渲染特效（泛光等）
+## ✨ Features
 
-## 🛠️ 技术栈
+- 🧊 Classic algorithms rendered as interactive 3D scenes (sorting, data structures, and more)
+- 🎮 Immersive free-roam exploration
+- 🎨 Post-processing effects (bloom, etc.)
+
+## 🛠️ Tech Stack
 
 React 19 · TypeScript · Vite 7 · Three.js / @react-three/fiber · Tailwind CSS 4
 
-## 🚀 运行
+## 🚀 Getting Started
 
 ```bash
-# 安装依赖
+# Install dependencies
 npm install
 
-# 启动开发服务器
+# Start the dev server
 npm run dev
 
-# 生产构建（输出单文件 HTML）
+# Production build (outputs a single-file HTML)
 npm run build
 npm run preview
 ```
 
-## 📁 目录结构
+## 📁 Project Structure
 
 ```
 src/
-├── App.tsx              # 应用入口
+├── App.tsx              # App entry
 ├── three/
-│   ├── World.tsx        # 3D 世界
-│   ├── Hub.tsx          # 中心枢纽
-│   └── scenes/          # 算法场景（排序 / 数据结构）
-├── hooks/usePlayer.ts   # 玩家视角控制
-└── lib/algorithms.ts    # 算法数据
+│   ├── World.tsx        # The 3D world
+│   ├── Hub.tsx          # Central hub
+│   └── scenes/          # Algorithm scenes (sorting / data structures)
+├── hooks/usePlayer.ts   # Player controls
+└── lib/algorithms.ts    # Algorithm data
 ```
